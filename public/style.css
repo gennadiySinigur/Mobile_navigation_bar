@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  font-family: 'Rubik', sans-serif;
+}
+
 /* Style the navigation menu */
 .topnav {
   overflow: hidden;
@@ -16,6 +20,7 @@
 /* Hide the links inside the navigation menu (except for logo/home) */
 .topnav #myLinks {
   display: none;
+  text-align: center;
 }
 
 /* Style navigation menu links */
@@ -23,13 +28,13 @@
   color: white;
   padding: 14px 16px;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 20px;
   display: block;
 }
 
 /* Style the hamburger menu */
 .topnav a.icon {
-  background: black;
+  background: #019fa5;
   display: block;
   position: absolute;
   right: 0;
@@ -38,12 +43,12 @@
 
 /* Add a grey background color on mouse-over */
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #b3e2e4;
   color: black;
 }
 
 /* Style the active link (or home/logo) */
 .active {
-  background-color: #04AA6D;
+  background-color: #019fa5;
   color: white;
 }
